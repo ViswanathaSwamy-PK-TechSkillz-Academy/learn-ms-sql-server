@@ -13,6 +13,7 @@ Post-Deployment Script Template
 PRINT 'Starting the Post Deployment Scripts for BooksDataStore'
 GO
 
+-- Books Data
 :r "../SeedData/books-data.sql"
 GO
 
